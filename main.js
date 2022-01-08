@@ -14,4 +14,8 @@ document.getElementById('opnbtn').addEventListener('click',() => {
   var btn = document.getElementById('opnbtn')
   btn.style.display = 'none'
 })
-const fsec = document.getElementById('banners')
+const tri = document.getElementById('tri')
+window.addEventListener('scroll', () => {
+  let off = window.pageYOffset
+  tri.style.backgroundPositionY = off * 0.7 + 'px'
+})
