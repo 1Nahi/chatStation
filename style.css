@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #303136;
+}
+
+@font-face {
+  font-family: 'Jura';
+  src: url('Normograph.ttf');
+}
+@font-face {
+  font-family: 'FHA';
+  src: url('FHACondFrenchNC.otf');
+}
+::selection{
+  background: #111111;
+}
+#navbar{
+  position: fixed ;
+  background: #212226;
+  height: 100%;
+  width: 0;
+  font-family: 'Jura';
+  color:white;
+  transition: 0.3s ;
+  z-index: 2;
+}
+#closebtn{
+  background: transparent ;
+  float: right ;
+  height: 60px;
+  width: 60px;
+  outline: none;
+  border:none;
+}
+#closebtn:active{
+  opacity: 0.7;
+}
+#navbar ul{
+  margin-top: 10vh ;
+  list-style: none;
+  display: none ;
+}
+#navbar ul li{
+  margin-top: 5vh;
+}
+#navbar ul li a{
+  font-size: 23px ;
+  color:white;
+  text-decoration: none ;
+}
+#fsec{
+  width: 100%;
+  height:20vh;
+  background: transparent ;
+}
+#opnbtn{
+  z-index: 1;
+  float: right ;
+  height: 60px;
+  width: 60px;
+  background: transparent ;
+  outline: none ;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  border-radius:10px;
+}
+#banners{
+  position: relative ;
+  top:-5vh;
+  background: /* url(' https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScI_wGzi6Vw39cda6MS4yZ09yZ0PQBzWwIEg&usqp=CAU'); */ transparent;
+  background-size: cover ;
+  background-position-x: 50%;
+  background-attachment: fixed ;
+  height: 60vh;
+  width: 100%;
+  align-items: center ;
+  justify-content: center;
+  text-align: center ;
+}
+#main{
+  height:100%;
+  width:100%;
+  background: transparent ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:white;
+}
+#main h1{
+  letter-spacing: 1px;
+  font-weight: 300;
+  position: relative ;
+  top:-15%;
+}
+#main #banner{
+  margin-top: 10vh;
+  width: 80%;
+  border-radius: 10px ;
+}
+#icon{
+  position: relative ;
+  top:-7.5vh;
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+  border:4px solid #303136;
+}
+#ssec{
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFiDJCbclxG9u-cNz5f_Umc9DHxWWyHnwOrQ&usqp=CAU');
+  background-size: cover ;
+  background-attachment: fixed ;
+  background-position-x: 50%;
+  height: 80vh;
+  width: 100%;
+  border-radius: 10px ;
+  text-align: center ;
+  justify-content: center ;
+  align-items: center ;
+  color:white;
+}
+#ssec h1{
+  font-family: sans-serif;
+  font-weight: 300;
+  padding: 10vh;
+}
+#ssec h3{
+  padding: 5px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+#link{
+  height: 5vh;
+  width: 50%;
+  color:white ;
+  background: #5764F2;
+  position: relative ;
+  top:-5vh;
+  outline:none;
+  border: none ;
+  border-radius: 10px ;
+}
